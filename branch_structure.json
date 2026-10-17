@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-136-add-deploy-yml-output-summary-with-contract",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-136-add-deploy-yml-output-summary-with-contract": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-136-add-deploy-yml-output-summary-with-contract",
+    "origin"
+  ]
+}

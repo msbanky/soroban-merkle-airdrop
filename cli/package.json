@@ -7,8 +7,8 @@
     "merkle-airdrop": "dist/index.js"
   },
   "scripts": {
-    "build": "tsc",
-    "dev": "ts-node src/index.ts",
+    "build": "node init && tsc",
+    "dev": "node init && ts-node src/index.ts",
     "test": "vitest run",
     "lint": "pnpm exec eslint src --ext .ts",
     "typecheck": "tsc --noEmit"
@@ -30,5 +30,7 @@
     "@typescript-eslint/parser": "7.13.0",
     "@typescript-eslint/eslint-plugin": "7.13.0"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20"
+  }
 }
